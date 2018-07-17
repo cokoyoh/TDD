@@ -13,7 +13,7 @@ class ThreadsTest extends TestCase
     use DatabaseMigrations;
 
     /**@test**/
-    public function test_a_user_can_view_all_threads()
+    public function test_a_user_can_view_all_threads() //once you anotate @test, you do not need to append the word test before the name of the test like you have done
     {
         //create a thread
         $thread = factory('App\Thread')->create();
